@@ -1,0 +1,40 @@
+/* Contenedor login general */
+.container-sound {
+    /* background-color: #fff; */
+    height: 500px;
+    width: 1100px;
+    margin-left: 215px;
+    margin-top: 140px;
+}
+
+
+/* Contenedor del carousel */
+.container-carousel {
+    /* background-color: #000; */
+    float: left;
+    height: 500px;
+    width: 650px;
+}
+
+
+/* Contenedor login general */
+.container-login {
+    background-color: #fff;
+    float: right;
+    height: 500px;
+    width: 450px;
+}
+
+
+/* Contenedor del logo */
+.logo-container{
+    align-items: center;
+    /* background-color: #000; */
+    display: flex;
+    justify-content: center;
+    height: 205px;
+    width: 100%;
+    margin-top: 20px;
+    /* height: 180px; */
+    /* width: 250px; */
+}
