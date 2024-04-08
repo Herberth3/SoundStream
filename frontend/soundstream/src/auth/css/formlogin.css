@@ -1,0 +1,33 @@
+/* Campo email */
+.custom-input-email {
+    margin-left: 28px;
+    width: 400px;
+}
+
+
+/* Campo contraseña */
+.custom-input-password {
+    margin-top: 23px;
+    margin-left: 28px;
+    width: 400px;
+}
+
+
+/* Check Buttom */
+.custom-check {
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+
+/* Boton iniciar sesion. */
+.custom-buttom{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+/* Boton - link - Registrarme */
+.custom-btn-link {
+    margin-left: 105px;
+}

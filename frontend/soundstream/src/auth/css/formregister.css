@@ -1,0 +1,49 @@
+.custom-label {
+    margin-left: 30px;
+}
+
+
+.custom-input {
+    margin-left: 30px;
+    width: 540px;
+}
+
+
+.custom-day {
+    margin-left: 30px;
+    width: 65px;
+}
+
+
+.custom-month {
+    margin-left: 20px;
+    width: 140px;
+}
+
+
+.custom-year {
+    margin-left: 20px;
+    width: 70px;
+}
+
+.btn-custom-register {
+    background-color: #ae05b4;
+    /* Color de fondo */
+    height: 50px;
+    color: #fff
+        /* Color del texto */
+    ;
+}
+
+
+/* Cambia el color al pasar el mouse (si es necesario) */
+.btn-custom-register:hover {
+    background-color: #ae05b4;
+    color: #fff
+}
+
+
+.custom-spam {
+    margin-top: 24px;
+    margin-left: 160px;
+}
