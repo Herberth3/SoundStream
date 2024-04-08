@@ -1,0 +1,51 @@
+
+### ping Aute servicio
+GET http://localhost:5000/ping
+
+### crear user
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+	"nombres":"david",
+    "apellidos":"lux",
+    "email":"lux.com",
+    "contra":"1234",
+    "fecha":"1/1/1",
+    "nombreFoto" : "lux.jpg",
+    "foto" : "*texto jpg en base 64*"
+}
+
+### editar usuario
+POST http://localhost:5000/editarUsuario
+Content-Type: application/json
+
+{
+    "nombres":"alexander",
+    "apellidos":"revolorio",
+    "email":"lux.com",
+    "nombreFoto" : "actual.jpg",
+    "foto" : "*texto jpg en base 64*"
+}
+
+### login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email":"fexxo@correo.com",
+    "contra":"1234"
+}
+
+### getUser
+POST http://localhost:5000/usuario
+Content-Type: application/json
+
+{
+    "email":"lux.com"
+}
+
+
+
+
+

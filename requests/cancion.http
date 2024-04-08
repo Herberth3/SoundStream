@@ -1,0 +1,63 @@
+### crear Cancion
+POST http://localhost:5000/crearCancion
+Content-Type: application/json
+
+{
+    "id_artista": 46,
+	"nombre": "prueba",
+    "nombreFoto":"",
+    "foto": "",
+    "duracion":"",
+    "nombreCancion":"",
+    "mp3": ""
+}
+
+### editar Cancion
+POST http://localhost:5000/editarCancion
+Content-Type: application/json
+
+{
+    "id_artista": 55,
+    "id_cancion": 15,
+    "nombre":"un x100to",
+    "nombreFoto":"",
+    "foto": "",
+    "duracion":"",
+    "nombreCancion":"",
+    "mp3": ""
+}
+
+### eliminar Cancion
+POST http://localhost:5000/eliminarCancion
+Content-Type: application/json
+
+{
+    "id_cancion":22
+}
+
+### obtener Cancion x nombre
+POST http://localhost:5000/cancionxNombre
+Content-Type: application/json
+
+{
+    "nombre":"un x100to"
+}
+
+### obtener Cancion x id
+POST http://localhost:5000/cancionxId
+Content-Type: application/json
+
+{
+    "id_cancion":15
+}
+
+### obtener cancionesArtista
+POST http://localhost:5000/cancionesArtista
+Content-Type: application/json
+
+{
+    "id_artista":46
+}
+
+### obtener todas las canciones
+GET http://localhost:5000/listaCanciones

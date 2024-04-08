@@ -1,0 +1,62 @@
+### crear Album
+POST http://localhost:5000/crearAlbum
+Content-Type: application/json
+
+{
+    "id_artista": 55,
+    "nombre": "prueba",
+    "descrip": "descripcion de prueba",
+    "nombreFoto": "",
+    "foto": ""
+}
+
+### editar Album
+POST http://localhost:5000/editarAlbum
+Content-Type: application/json
+
+{
+    "id_artista": 55,
+    "id_album": 9,
+    "nombre": "prueba editada",
+    "descrip": "descripcion de prueba",
+    "nombreFoto": "",
+    "foto": "" 
+
+}
+
+### eliminar Album
+POST http://localhost:5000/eliminarAlbum
+Content-Type: application/json
+
+{
+    "id_album":10
+}
+
+### obtener Album x nombre
+POST http://localhost:5000/albumxNombre
+Content-Type: application/json
+
+{
+    "nombre": "YHLQMDLG"
+}
+
+
+### obtener Album x id
+POST http://localhost:5000/albumxId
+Content-Type: application/json
+
+{
+    "id_album": 6
+}
+
+
+### obtener Albums Artista
+POST http://localhost:5000/albumsArtista
+Content-Type: application/json
+
+{
+    "id_artista":55
+}
+
+### obtener Albums
+GET http://localhost:5000/listaAlbum

@@ -1,0 +1,26 @@
+### agregar cancion playlist
+POST http://localhost:5000/agregarCancionPlaylist
+Content-Type: application/json
+
+{
+    "id_cancion": 28,
+    "id_playlist": 12
+}
+
+### eliminar cancion playlist
+POST http://localhost:5000/eliminarCancionPlaylist
+Content-Type: application/json
+
+{
+    "id_cancion": 28,
+    "id_playlist": 12
+}
+
+### obtener canciones playlist
+POST http://localhost:5000/cancionesplaylist
+Content-Type: application/json
+
+{
+    "id_playlist": 12
+}
+

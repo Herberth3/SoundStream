@@ -1,0 +1,26 @@
+### agregar cancion album
+POST http://localhost:5000/agregarCancionAlbum
+Content-Type: application/json
+
+{
+    "id_cancion": 18,
+    "id_album":  6
+}
+
+### eliminar cancion album
+POST http://localhost:5000/eliminarCancionAlbum
+Content-Type: application/json
+
+{
+    "id_cancion": 18,
+    "id_album": 6
+}
+
+### obtener canciones album
+POST http://localhost:5000/cancionesAlbum
+Content-Type: application/json
+
+{
+    "id_album": 6
+}
+

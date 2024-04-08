@@ -1,0 +1,48 @@
+### crear artista
+POST http://localhost:5000/crearArtista
+Content-Type: application/json
+
+{
+	"nombre": "prueba",
+    "fecha" : "1/1/1",		
+    "nombreFoto" : "",
+    "foto" : ""
+}
+
+### editar artista
+POST http://localhost:5000/editarArtista
+Content-Type: application/json
+
+{
+    "id_artista": 56,
+    "nombre" : "prueba",		
+    "nombreFoto" : "",
+    "foto" : ""
+}
+
+### eliminar artista
+POST http://localhost:5000/eliminarArtista
+Content-Type: application/json
+
+{
+    "id_artista": 56
+}
+
+### obtener artista x nombre
+POST http://localhost:5000/artistaxNombre
+Content-Type: application/json
+
+{
+    "nombre":"Ferxxo"
+}
+
+### obtener artista x nombre
+POST http://localhost:5000/artistaxId
+Content-Type: application/json
+
+{
+    "id_artista": 46
+}
+
+### obtener artistas
+GET http://localhost:5000/listaArtistas

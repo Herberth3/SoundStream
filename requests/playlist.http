@@ -1,0 +1,52 @@
+### crear Playlist
+POST http://localhost:5000/crearPlaylist
+Content-Type: application/json
+
+{
+    "id_usuario":12,
+    "nombre":"playlist prueba",
+    "descrip":"descrip prueba",
+    "nombreFoto":"",
+    "foto":""
+}
+
+###  Playlist
+POST http://localhost:5000/editarPlaylist
+Content-Type: application/json
+
+{
+    "id_playlist":5,
+    "nombre":"playlist prueba editada",
+    "descrip":"descrip prueba editada",
+    "nombreFoto":"",
+    "foto":""
+}
+
+###  Playlist
+POST http://localhost:5000/eliminarPlaylist
+Content-Type: application/json
+
+{
+    "id_playlist":4
+}
+
+###  Playlist
+POST http://localhost:5000/playlistxId
+Content-Type: application/json
+
+{
+    "id_playlist":5
+}
+
+###  Playlist
+POST http://localhost:5000/playlistsUsario
+Content-Type: application/json
+
+{
+    "id_usuario":12
+}
+
+
+###  Playlist
+GET http://localhost:5000/listaPlaylists
+
